@@ -1,0 +1,38 @@
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+<crowd-form answer-format="flatten-objects">
+
+    <p>
+      <strong>Instructions: </strong>
+      Given four images, identify the correct order of tasks for each image
+    </p>
+    <p>
+      There are four images of traffic here. They were initially correctly sequenced but now have been jumbled.
+      Each image has been arbitrarily labeled as A, B, C and D
+      Identify the correct order that the images were taken in by analyzing the movement of vehicles and put them in the
+      blanks below. 
+      
+      For instance if the chronological order of images was such that Image B was taken first, followed by Image A, then Image D and finally 
+      followed by Image C, you would put B in the first blank, A in the second blank D in the third blank, and C in the fourth blank.
+    </p>
+
+    <!-- Your image file URLs will be substituted for the "image_url" variable below 
+          when you publish a batch with a CSV input file containing multiple image file URLs.
+          To preview the element with an example image, try setting the src attribute to
+          "https://s3.amazonaws.com/cv-demo-images/basketball-outdoor.jpg" -->
+
+    <p><img src="${image_url_1}" style="max-width: 100%; max-height: 250px" /><figcaption>Image A</figcaption></p>
+    <p><img src="${image_url_2}" style="max-width: 100%; max-height: 250px" /><figcaption>Image B</figcaption></p>
+    <p><img src="${image_url_3}" style="max-width: 100%; max-height: 250px" /><figcaption>Image C</figcaption></p>
+    <p><img src="${image_url_4}" style="max-width: 100%; max-height: 250px" /><figcaption>Image D</figcaption></p>
+
+    <crowd-input label="The label of the first image in chronological order" max-length="1" name="chron_1" required></crowd-input>
+    <crowd-input label="The label of the second image in chronological order" max-length="1" name="chron_2" required></crowd-input>
+    <crowd-input label="The label of the third image in chronological order" max-length="1" name="chron_3" required></crowd-input>
+    <crowd-input label="The label of the fourth image in chronological order" max-length="1" name="chron_4" required></crowd-input>
+</crowd-form>
