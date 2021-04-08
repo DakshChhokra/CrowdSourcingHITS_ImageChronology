@@ -1,7 +1,7 @@
-image_url_1,image_url_2,image_url_3
-https://nets213replicate.s3.us-east-2.amazonaws.com/a-2.png,https://nets213replicate.s3.us-east-2.amazonaws.com/a-1.png,https://nets213replicate.s3.us-east-2.amazonaws.com/a-3.png
-https://nets213replicate.s3.us-east-2.amazonaws.com/b-1.png,https://nets213replicate.s3.us-east-2.amazonaws.com/b-3.png,https://nets213replicate.s3.us-east-2.amazonaws.com/b-2.png
-https://nets213replicate.s3.us-east-2.amazonaws.com/c-3.png,https://nets213replicate.s3.us-east-2.amazonaws.com/c-1.png,https://nets213replicate.s3.us-east-2.amazonaws.com/c-2.png
-https://nets213replicate.s3.us-east-2.amazonaws.com/d-3.png,https://nets213replicate.s3.us-east-2.amazonaws.com/d-1.png,https://nets213replicate.s3.us-east-2.amazonaws.com/d-2.png
-https://nets213replicate.s3.us-east-2.amazonaws.com/e-2.png,https://nets213replicate.s3.us-east-2.amazonaws.com/e-1.png,https://nets213replicate.s3.us-east-2.amazonaws.com/e-3.png
-https://nets213replicate.s3.us-east-2.amazonaws.com/f-1.png,https://nets213replicate.s3.us-east-2.amazonaws.com/f-3.png,https://nets213replicate.s3.us-east-2.amazonaws.com/f-2.png
+id,image_url_1,image_url_2,image_url_3
+a,https://nets213replicate.s3.us-east-2.amazonaws.com/a-3.png,https://nets213replicate.s3.us-east-2.amazonaws.com/a-2.png,https://nets213replicate.s3.us-east-2.amazonaws.com/a-1.png
+b,https://nets213replicate.s3.us-east-2.amazonaws.com/b-3.png,https://nets213replicate.s3.us-east-2.amazonaws.com/b-2.png,https://nets213replicate.s3.us-east-2.amazonaws.com/b-1.png
+c,https://nets213replicate.s3.us-east-2.amazonaws.com/c-2.png,https://nets213replicate.s3.us-east-2.amazonaws.com/c-3.png,https://nets213replicate.s3.us-east-2.amazonaws.com/c-1.png
+d,https://nets213replicate.s3.us-east-2.amazonaws.com/d-3.png,https://nets213replicate.s3.us-east-2.amazonaws.com/d-2.png,https://nets213replicate.s3.us-east-2.amazonaws.com/d-1.png
+e,https://nets213replicate.s3.us-east-2.amazonaws.com/e-2.png,https://nets213replicate.s3.us-east-2.amazonaws.com/e-1.png,https://nets213replicate.s3.us-east-2.amazonaws.com/e-3.png
+f,https://nets213replicate.s3.us-east-2.amazonaws.com/f-3.png,https://nets213replicate.s3.us-east-2.amazonaws.com/f-1.png,https://nets213replicate.s3.us-east-2.amazonaws.com/f-2.png

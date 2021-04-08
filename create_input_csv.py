@@ -61,9 +61,10 @@ def return_random_array_easy(letter):
 easy_array = []
 with open('easy.csv', 'w', newline='') as file:
     writer = csv.writer(file)
-    writer.writerow(["image_url_1", "image_url_2"])
+    writer.writerow(["id", "image_url_1", "image_url_2"])
     for letter in 'abcdef':
         row = []
+        row.append(letter)
         keys = return_random_array_easy(letter)
         easy_array.append(keys)
         print(keys)
@@ -74,9 +75,10 @@ with open('easy.csv', 'w', newline='') as file:
 medium_array = []
 with open('medium.csv', 'w', newline='') as file:
     writer = csv.writer(file)
-    writer.writerow(["image_url_1", "image_url_2", "image_url_3"])
+    writer.writerow(["id", "image_url_1", "image_url_2", "image_url_3"])
     for letter in 'abcdef':
         row = []
+        row.append(letter)
         keys = return_random_array_medium(letter)
         medium_array.append(keys)
         print(keys)
@@ -87,9 +89,10 @@ with open('medium.csv', 'w', newline='') as file:
 hard_array = []
 with open('hard.csv', 'w', newline='') as file:
     writer = csv.writer(file)
-    writer.writerow(["image_url_1", "image_url_2", "image_url_3", "image_url_4"])
+    writer.writerow(["id", "image_url_1", "image_url_2", "image_url_3", "image_url_4"])
     for letter in 'abcdef':
         row = []
+        row.append(letter)
         keys = return_random_array_hard(letter)
         hard_array.append(keys)
         print(keys)
